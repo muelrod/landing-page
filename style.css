@@ -6,9 +6,24 @@
     height: 67px;
 }
 
-h1{
+.texto-principal h1{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 350;
+    font-size: 55pt;
+}
+
+.texto-principal p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 20pt;
+    margin-top: -65px;
+
+}
+
+.texto-principal {
+    margin-left: 50px;
 }
