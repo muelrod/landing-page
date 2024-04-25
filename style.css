@@ -41,15 +41,23 @@ header{
     top: 70px;
 }
 
-.botao{
-    position:relative;
+.botao {
+    position: relative;
     background-color: #FF8881;
     color: white;
-    border-radius: 30px;
+    border-radius: 50px;
     border-color: #FF8881;
     width: 325px;
     height: 75px;
     left: 150px;
     button: 150px;
     font-size: 20pt;
+    margin-top: 25px;
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: none;
+}
+
+.planos-de-venda{
+    
 }
