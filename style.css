@@ -12,6 +12,10 @@ header{
     height: 67px;
 }
 
+.primeira-seção{
+    margin-bottom: 180px;
+}
+
 .texto-principal h1{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -59,5 +63,25 @@ header{
 }
 
 .planos-de-venda{
-    
+    font-family: "Montserrat", sans-serif;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: #E1E9FE;
+    margin: 20px;
+    width: 346px;
+    height: 463px;
+
+}
+
+.planos-de-venda p{
+
+    font-weight: bolder;
+}
+
+.valor{
+    background-color: #4A4CF6;
+}
+
+.valor p{
+    color: white;
 }
