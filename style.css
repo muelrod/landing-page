@@ -14,6 +14,7 @@ header{
 
 .primeira-seção{
     margin-bottom: 180px;
+
 }
 
 .texto-principal h1{
@@ -62,6 +63,12 @@ header{
     box-shadow: none;
 }
 
+.segunda-seção{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
 .planos-de-venda{
     font-family: "Montserrat", sans-serif;
     border-radius: 30px;
@@ -69,19 +76,57 @@ header{
     background-color: #E1E9FE;
     margin: 20px;
     width: 346px;
-    height: 463px;
+    height: 500px;
 
 }
 
 .planos-de-venda p{
-
-    font-weight: bolder;
+    font-weight: 650;
+    text-align: center;
+    font-size: 32pt;
 }
 
+
+
+.ganhos{
+    font-family: "Montserrat", sans-serif;
+    font-size:  20pt;
+    
+}
+
+
 .valor{
+    position: absolute;
     background-color: #4A4CF6;
+    width: 346px;
+    height: 180px;
+    border-radius: 30px;
+    top: 980px;
+
 }
 
 .valor p{
     color: white;
+    font-size: 20pt;
+    width: 200px;
+    text-align: center;
+    
+}
+
+#tecnologias{
+    background-color: #170D8B;
+    height:650px ;
+}
+
+#tecnologias p {
+    background-color: #4A4CF6;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+ img{
+    width: 20px;
+    height: 20px;
 }
