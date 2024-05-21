@@ -102,6 +102,7 @@ header{
     height: 180px;
     border-radius: 30px;
     top: 980px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -110,23 +111,30 @@ header{
     font-size: 20pt;
     width: 200px;
     text-align: center;
+    padding: 5px 0px 0px 72px;
     
 }
 
-#tecnologias{
+#terceira-seção{
     background-color: #170D8B;
     height:650px ;
+    border-radius: 10px;
+    padding-top: 1px;
 }
 
-#tecnologias p {
+#terceira-seção p {
     background-color: #4A4CF6;
     font-family: "Montserrat", sans-serif;
     color: white;
     text-align: center;
+    font-size: 30pt;
+    
 
 }
 
- img{
+
+
+#terceira-seção img{
     width: 20px;
     height: 20px;
 }
