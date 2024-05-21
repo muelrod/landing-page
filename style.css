@@ -55,12 +55,12 @@ header{
     width: 325px;
     height: 75px;
     left: 150px;
-    button: 150px;
     font-size: 20pt;
     margin-top: 25px;
     font-weight: bolder;
     font-family: "Montserrat", sans-serif;
     box-shadow: none;
+    cursor: pointer;
 }
 
 .segunda-seção{
@@ -117,7 +117,7 @@ header{
 
 #terceira-seção{
     background-color: #170D8B;
-    height:650px ;
+    height:625px ;
     border-radius: 10px;
     padding-top: 1px;
 }
@@ -132,9 +132,19 @@ header{
 
 }
 
-
-
-#terceira-seção img{
-    width: 20px;
-    height: 20px;
+.imagens-tecnologias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.imagens-tecnologias figure {
+    margin: 0 -25px; /* Espaçamento entre as figuras */
+}
+
+.imagens-tecnologias img {
+    width: 400px;
+    height: 400px;
+    
+}
+
